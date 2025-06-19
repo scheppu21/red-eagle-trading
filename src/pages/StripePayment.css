@@ -1,0 +1,50 @@
+.stripe-payment {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fefefe;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+.stripe-payment h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #ff0000;
+}
+
+.stripe-payment p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.stripe-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.stripe-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.stripe-form button:hover {
+  background-color: #cc0000;
+}

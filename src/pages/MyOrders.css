@@ -1,0 +1,49 @@
+.my-orders {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.my-orders h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.my-orders ul {
+  list-style: none;
+  padding: 0;
+}
+
+.my-orders li {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  line-height: 1.5;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.order-item{
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.product-list{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.dowload-btn {
+  background-color: #003049;
+  color: #ddd;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+.dowload-btn:hover{
+  background-color: #001f2e;
+}

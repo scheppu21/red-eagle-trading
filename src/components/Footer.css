@@ -1,0 +1,158 @@
+.site-footer {
+  background: #f5f5f5;
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 40px 20px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #0051a2;
+  color: white;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  animation: slide-in-up 1s ease forwards;
+}
+
+
+
+.feature-box {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-column {
+  flex: 1 1 220px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 6px;
+}
+
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.newsletter input {
+  padding: 8px;
+  width: 80%;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  padding: 8px 12px;
+  margin-top: 8px;
+  background: #003049;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.footer-icon {
+  font-size: 20px;
+  color: #003049;
+  cursor: pointer;
+}
+
+.lang-toggle-btn {
+  margin-top: 14px;
+  background-color: transparent;
+  border: 1px solid #003049;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #003049;
+}
+
+.company-address,
+.company-phone {
+  margin: 2px 0;
+  color: #333;
+  font-size: small;
+}
+
+/* ✅ Mobile Styles */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 20px;
+    animation: slide-in-up 1s ease forwards;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .newsletter input {
+    width: 100%;
+  }
+
+  .feature-box {
+    text-align: center;
+  }
+
+  .footer-column {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .lang-toggle-btn {
+    display: block;
+    margin: 14px auto 0 auto;
+  }
+}
+@keyframes slideInUpMobile {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.footer-top.slide-in {
+  animation: slideInUpMobile 0.8s ease-out forwards;
+}
+
+/* Ensure it runs only on mobile */
+@media (min-width: 769px) {
+  .footer-top.slide-in {
+    animation: none !important;
+  }
+}
