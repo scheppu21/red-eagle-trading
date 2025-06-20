@@ -22,9 +22,12 @@
     "swiper": "^11.2.8",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://scheppu21.github.io/red-eagle-trading",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -50,5 +53,8 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }

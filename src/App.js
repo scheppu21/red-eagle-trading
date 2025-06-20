@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import { UserProvider } from './context/UseContext';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -24,6 +24,7 @@ import './i18n'; // load i18next
 
 function App() {
   return (
+    <BrowserRouter basename='/red-eagle-trading'>
     <UserProvider>
       <Router>
         <Navbar />
@@ -75,6 +76,7 @@ function App() {
   </a>
 </div>
     </UserProvider>
+    </BrowserRouter>
   );
 }
 
