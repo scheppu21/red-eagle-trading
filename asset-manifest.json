@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/red-eagle-trading/static/css/main.a8df4435.css",
+    "main.js": "/red-eagle-trading/static/js/main.faf46f88.js",
+    "static/js/239.6ad6aa11.chunk.js": "/red-eagle-trading/static/js/239.6ad6aa11.chunk.js",
+    "static/js/977.cf95f43f.chunk.js": "/red-eagle-trading/static/js/977.cf95f43f.chunk.js",
+    "static/js/455.58957ccf.chunk.js": "/red-eagle-trading/static/js/455.58957ccf.chunk.js",
+    "static/media/galaxyfold.jpeg": "/red-eagle-trading/static/media/galaxyfold.e9dec60592a23b3d9f9a.jpeg",
+    "static/media/logo.jpeg": "/red-eagle-trading/static/media/logo.1220a25e4f9952881ce1.jpeg",
+    "static/media/iphone.jpg": "/red-eagle-trading/static/media/iphone.26353e8868432fb816cc.jpg",
+    "static/media/swatchesultra.jpeg": "/red-eagle-trading/static/media/swatchesultra.91702e06be36fc0875fc.jpeg",
+    "static/media/ipadairp.jpeg": "/red-eagle-trading/static/media/ipadairp.43a713b783ade1ce9e3d.jpeg",
+    "static/media/ipadairb.jpeg": "/red-eagle-trading/static/media/ipadairb.afad61f11bfdc0979832.jpeg",
+    "static/media/ipadprob.jpeg": "/red-eagle-trading/static/media/ipadprob.a1338b328c80a14fd8d5.jpeg",
+    "static/media/macairb.jpeg": "/red-eagle-trading/static/media/macairb.9a153a5c8425c6e51f5f.jpeg",
+    "static/media/swatches6.jpeg": "/red-eagle-trading/static/media/swatches6.b348024f63ca0a59f8ad.jpeg",
+    "index.html": "/red-eagle-trading/index.html",
+    "main.a8df4435.css.map": "/red-eagle-trading/static/css/main.a8df4435.css.map",
+    "main.faf46f88.js.map": "/red-eagle-trading/static/js/main.faf46f88.js.map",
+    "239.6ad6aa11.chunk.js.map": "/red-eagle-trading/static/js/239.6ad6aa11.chunk.js.map",
+    "977.cf95f43f.chunk.js.map": "/red-eagle-trading/static/js/977.cf95f43f.chunk.js.map",
+    "455.58957ccf.chunk.js.map": "/red-eagle-trading/static/js/455.58957ccf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8df4435.css",
+    "static/js/main.faf46f88.js"
+  ]
+}
